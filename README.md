@@ -12,9 +12,9 @@ A versão final do código de cada sprint deverá estar na branch principal do r
 
 No fork de vocês, favor alterar este README para adicionar os links correspondentes para os seguintes itens:
 
-**Repositório de Backend**: 
+**Repositório de Backend**:
 
-**Repositório de Frontend**: 
+**Repositório de Frontend**:
 
 **URL da aplicação funcionando**:
 
@@ -31,6 +31,8 @@ Estes Pull Requests (PRs) deverão ser criados a partir da branch principal do f
 Ou seja, o Pull Request de **BACKEND** deverá ser criado a partir do fork de vocês desse repositório aqui, com destino a este repositório aqui.
 
 E portanto o Pull Request de **FRONTEND** deverá ser criado a partir do fork de vocês do repositório base de FRONTEND desse desafio, com destino ao [repositório base de FRONTEND desse desafio](https://github.com/cubos-academy/front-integral-m05-t08).
+
+**FUNCIONAMENTO:** Usar o arquivo **.env.example** como base para a criação do arquivo **.env**, preenchendo as chaves com os respectivos valores do banco de dados e a criação de uma senha para a chave **SECRET** que será usada na criptografia do projeto.
 
 <b>[Figma Desafio M05 - Sprint 1](https://www.figma.com/file/Gpl5YlCj17jJ99dT3LqV6U/M05-SPRINT-01?node-id=410%3A47347)</b>
 
@@ -49,7 +51,7 @@ ________________________________________________________________________________
   - O cadastro deverá funcionar em formulário web que funcione em um navegador padrão
   - Para acessar este formulário de cadastro não deverá ser exigida autenticação
   - Os dados do cadastro deverão ser persistidos de maneira que possam ser consultados em qualquer momento no futuro até que sejam excluídos.
-  - O usuário poderá visualizar sua senha enquanto a escreve (Ex: Material UI Input Adornment https://v4.mui.com/pt/api/input-adornment/)
+  - O usuário poderá visualizar sua senha enquanto a escreve (Ex: Material UI Input Adornment https://v4.mui.com/pt/api/input-adornment/)
   - A senha do usuário deverá ser persistida utilizando algum algoritmo de criptografia confiável
 ___________________________________________________________________________________
 - Campos necessários para o cadastro inicial (obrigatórios):
@@ -126,7 +128,7 @@ ________________________________________________________________________________
 <details>
 <summary><b>[Usuário] Edição do usuário logado</b></summary>
 
-#### `Na posição de usuário dos sistema, desejo editar meus dados de usuário, quando logado no sistema.`
+#### `Na posição de usuário dos sistema, desejo editar meus dados de usuário, quando logado no sistema.`
 
 - <b>Critérios de aceite</b>
   - Através de um clique no perfil da Dashboard serão abertos dois botões:
@@ -138,7 +140,7 @@ ________________________________________________________________________________
   - Para acessar este formulário de cadastro será exigido autenticação.
  - Os dados da atualização deverão ser persistidos de maneira que possam ser consultados em qualquer momento no futuro até que sejam excluídos.
 
-- O usuário poderá ou não visualizar sua senha enquanto a escreve (Ex: Material UI Input Adornment)
+- O usuário poderá ou não visualizar sua senha enquanto a escreve (Ex: Material UI Input Adornment)
   - Caso seja informado uma nova senha do usuário, a mesma deverá ser persistida utilizando algum algoritmo de criptografia confiável
   - O usuário poderá atualizar os respectivos dados a seguir :
 
